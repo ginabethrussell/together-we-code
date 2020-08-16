@@ -1,0 +1,177 @@
+/* Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End Reset */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Lato', sans-serif;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+header .primary-nav {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav .left-nav {
+    width: 33%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header nav .right-nav {
+    width: 66%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+header nav a {
+    text-decoration: none;
+    color: dodgerblue;
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+
+header nav a.active {
+    padding-bottom: 5px;
+    border-bottom: 2px solid dodgerblue;
+}
+
+header .header-text {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+header .header-text h1 {
+    font-size: 6rem;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+header .header-text p {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+main section {
+    width: 30%;
+    min-width: 250px;
+    padding: 2rem;
+    /* padding-right: 2rem;
+    padding-left: 2rem; */
+    background-color: #f9f9f9;
+    margin-bottom: 50px;
+}
+
+main section h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 20px 0;
+    text-align: center;
+}
+
+main section p {
+    line-height: 1.2;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    font-size: 2rem;
+    height: 150px;
+}
+
+footer p {
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+footer a {
+    text-decoration: none;
+    color: #333;
+}
