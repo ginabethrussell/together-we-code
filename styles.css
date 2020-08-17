@@ -139,8 +139,6 @@ main section {
     width: 30%;
     min-width: 250px;
     padding: 2rem;
-    /* padding-right: 2rem;
-    padding-left: 2rem; */
     background-color: #f9f9f9;
     margin-bottom: 50px;
 }
@@ -175,3 +173,27 @@ footer a {
     text-decoration: none;
     color: #333;
 }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    color: dodgerblue;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: dodgerblue;
+    font-size: 2rem;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+ 
+  
