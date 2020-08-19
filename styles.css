@@ -100,6 +100,10 @@ header nav a {
     margin-right: 2rem;
 }
 
+header nav .right-nav a:hover {
+    padding-bottom: 5px;
+    border-bottom: 2px solid dodgerblue;
+}
 header nav a.active {
     padding-bottom: 5px;
     border-bottom: 2px solid dodgerblue;
@@ -126,7 +130,7 @@ header .header-text p {
     line-height: 1.5;
 }
 
-main {
+main.landing-page {
     max-width: 960px;
     margin: 0 auto;
     display: flex;
@@ -135,7 +139,7 @@ main {
     align-items: flex-start;
 }
 
-main section {
+main.landing-page section {
     width: 30%;
     min-width: 250px;
     padding: 2rem;
@@ -143,14 +147,14 @@ main section {
     margin-bottom: 50px;
 }
 
-main section h2 {
+main.landing-page section h2 {
     font-size: 2rem;
     font-weight: 600;
     margin: 20px 0;
     text-align: center;
 }
 
-main section p {
+main.landing-page section p {
     line-height: 1.2;
 }
 
@@ -196,4 +200,125 @@ footer a {
     display: block;
   }
  
-  
+  .dropdown-content a:hover {
+    padding-bottom: 5px;
+    border-bottom: 2px solid dodgerblue;
+  }
+  /* Start Styles for Tutorial Pages */
+  .container header {
+      
+  }
+  main .tutorial-container {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin: 25px 0;
+  }
+  .sidebar-content {
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      background: #ffd6d6;
+      padding: 25px;
+      overflow-x: hidden;
+      overflow-y: scroll;
+      
+  }
+  .sidebar-header {
+      margin-bottom: 25px;
+  }
+  .sidebar-content .sidebar-header h3 {
+      font-size: 3rem;
+      font-weight: 600;
+  }
+  .sidebar-content .sidebar-main {
+    width: 100%;
+    height: 100vh;
+  }
+  .sidebar-content .sidebar-main ol{
+    list-style: decimal;
+    width: 75%;
+    margin: 0 auto;
+  }
+  .sidebar-content .sidebar-main ol li {
+      padding: 15px;
+      padding-left: 5px;
+  }
+  .sidebar-content .sidebar-main ol li a {
+      text-decoration: none;
+      color: #333;
+      font-size: 2rem;
+  }
+  .tutorial-container .main-content {
+      width: 75%;
+      display: flex;
+      flex-direction: column;
+  }
+  .tutorial-container .main-content .tutorial-wrap{
+      width: 100%;
+      padding-left: 30px;
+      padding-right: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      overflow-y: scroll;
+      overflow-x: hidden;
+  }
+  .tutorial-wrap header {
+      margin-bottom: 50px;
+  }
+  .tutorial-container .main-content .tutorial-wrap h1 {
+      font-weight: 600;
+      font-size: 4rem;
+      color: #333;
+      margin-bottom: 20px;
+  }
+  .tutorial-container .main-content .tutorial-wrap p {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.4;
+    letter-spacing: 2px;
+    margin-bottom: 1.6rem;
+  }
+  .tutorial-wrap .tutorial {
+      width: 100%;
+      height: 100vh;
+  }
+  .tutorial-wrap .tutorial h2 {
+      font-weight: 600;
+      font-size: 3rem;
+      margin-top: 30px;
+      margin-bottom: 20px;
+  }
+  .tutorial-wrap .tutorial h3 {
+    font-weight: 600;
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    line-height: 1.4;
+    letter-spacing: 2px;
+}
+.tutorial-wrap .tutorial p {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.4;
+    letter-spacing: 2px;
+    margin-bottom: 1.6rem;
+}
+.tutorial-wrap .tutorial blockquote {
+    width: 75%;
+    margin: 10px auto;
+    font-size: 2rem;
+    font-style: italic;
+    line-height: 1.4;
+    letter-spacing: 2px;
+}
+.tutorial-wrap .tutorial .title {
+    font-style: italic;
+}
+
+.tutorial .embedded-video {
+    width: 600px;
+    margin: 0 auto;
+}

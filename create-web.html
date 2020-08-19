@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Website</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="primary-nav">
+                <nav>
+                    <div class="left-nav">
+                        <a href="#"><img src="assets/logo.svg" width="32px" /></a>
+                        <a href="#">togetherWeCode</a>
+                    </div>
+                    <div class="right-nav">
+                        <a href="index.html">Home</a>
+                        <a href="#about">About</a>
+                        <div class="dropdown">
+                            <a class="active" href="#" class="dropbtn">Create</a>
+                            <div class="dropdown-content">
+                                <a href="create-web.html">Websites</a>
+                                <a href="#">Mobile Apps</a>
+                                <a href="#">Games</a>
+                            </div>
+                        </div>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main class="web-tutorial-page">
+            <div class="tutorial-container">
+                <div class="sidebar-content">
+                    <header class="sidebar-header">
+                        <img src="assets/development.png" alt="desktop computer with a website">
+                        <h3>Start Here</h3>
+                    </header>
+                    <main class="sidebar-main">
+                        <nav class="tutorial-list-nav">
+                            <ol class="tutorial-list">
+                                <li><a class="tutorial-link" href="#first-steps">First Steps</a>
+                                    <ul>
+                                        <li><a class="tutorial-link" href="#computers">Things to Remember About Computers</a></li>
+                                        <li><a class="tutorial-link" href="#programming">How Do I Program a Computer?</a>
+                                        </li>
+                                        <li><a class="tutorial-link" href="#language">What Programming Language Should I
+                                                Learn?</a></li>
+                                        <li><a class="tutorial-link" href="#platform">Where Do I Write My Code?</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="tutorial-link" href="#html">HTML</a>
+                                    <ul>
+                                        <li><a class="tutorial-link" href="#first-steps">First Steps</a></li>
+                                        <li><a class="tutorial-link" href="#html">HTML</a></li>
+                                        <li><a class="tutorial-link" href="#css">CSS</a></li>
+                                        <li><a class="tutorial-link" href="#">JavaScript</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="tutorial-link" href="#css">CSS</a>
+                                    <ul>
+                                        <li><a class="tutorial-link" href="#first-steps">First Steps</a></li>
+                                        <li><a class="tutorial-link" href="#html">HTML</a></li>
+                                        <li><a class="tutorial-link" href="#css">CSS</a></li>
+                                        <li><a class="tutorial-link" href="#">JavaScript</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="tutorial-link" href="#">JavaScript</a>
+                                    <ul>
+                                        <li><a class="tutorial-link" href="#first-steps">First Steps</a></li>
+                                        <li><a class="tutorial-link" href="#html">HTML</a></li>
+                                        <li><a class="tutorial-link" href="#css">CSS</a></li>
+                                        <li><a class="tutorial-link" href="#">JavaScript</a></li>
+                                    </ul>
+                                </li>
+                            </ol>
+                        </nav>
+                    </main>
+                </div>
+                <div class="main-content">
+                    <div class="tutorial-wrap">
+                        <header>
+                            <h1>Create a Website</h1>
+                            <p>
+                                Congratulations on taking your first steps toward making your own websites to share with the world. 
+                                Maybe you already have an idea of something you'd like to create, but don't worry if you're not 
+                                sure what you'd like to build. We will be exploring lots of examples while we learn and one of them
+                                might just be the spark you need to light your own creative fire.
+                            </p>
+                        </header>
+                        <main id="getting-started" class="tutorial">
+                            <section id="first-steps">
+                                <h2>1. First Steps</h2>
+
+                                <h3 id="computers">Things to Remember about Computers</h3>
+
+                                <p>
+                                    As we begin learning to code, it's important to note some rather surprising
+                                    things about computers. The first is that they are actually not very smart. No, really,
+                                    they are terrible at many of the things your brain does very well without you even
+                                    thinking about it.
+                                <p>
+
+                                <p>For example, try reading the text below from <a href="https://www.livescience.com/18392-reading-jumbled-words.html">LiveScience.com</a></p>
+
+                                <blockquote>
+                                    For emaxlpe, it deson’t mttaer in waht oredr the ltteers in a wrod aepapr, the olny iprmoatnt tihng is 
+                                    taht the frist and lsat ltteer are in the rghit pcale. The rset can be a toatl mses and you can sitll 
+                                    raed it wouthit pobelrm.
+                                </blockquote>
+
+                                <p>Or how about this one:</p>
+
+                                <blockquote>
+                                    S1M1L4RLY, Y0UR M1ND 15 R34D1NG 7H15 4U70M471C4LLY W17H0U7 3V3N 7H1NK1NG 4B0U7 17.
+                                </blockquote> 
+
+                                <p>
+                                    How did you do? Were you surprised you could understand the message? Your brain is an 
+                                    amazing code-cracking machine.
+                                </p>
+                                <p> 
+                                    Computers, however, don’t work this way. They need extremely specific instructions, so specific, 
+                                    that writing code for a computer can be difficult because we just aren’t used to having to think that way. 
+                                </p>
+                                <p>
+                                    To get an idea of how hard it might be to give specific instructions, check out <span class="title">The Exact Instructions Challenge</span> video below.
+                                </p>
+                                <div class="embedded-video">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cDA3_5982h8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <p>They are powerful, fast, and don't mind doing the 
+                                    same repetitive thing over and over again,Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <h3 id="programming">How Do I Program a Computer?</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor
+                                    qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam,
+                                    enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor
+                                    qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam,
+                                    enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor
+                                    qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam,
+                                    enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor
+                                    qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam,
+                                    enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor
+                                    qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam,
+                                    enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                </h3>
+                                <h3 id="language">What Programming Language Should I Learn?</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor
+                                    qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam,
+                                    enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor
+                                    qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam,
+                                    enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor
+                                    qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam,
+                                    enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor
+                                    qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam,
+                                    enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor
+                                    qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam,
+                                    enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                </h3>
+                                <h3 id="platform">Where Do I Write My Code?</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor
+                                    qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam,
+                                    enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor
+                                    qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam,
+                                    enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor
+                                    qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam,
+                                    enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor
+                                    qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam,
+                                    enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor
+                                    qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam,
+                                    enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                </h3>
+                            </section>
+                            <section id="html">
+                                <h2>2. HTML</h2>
+                                <h3>Content & Structure</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <h3>Tags & Elements</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <h3>Semantic HTML</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <h3>Resources to Learn More</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                            </section>
+                            <section id="css">
+                                <h2>3. CSS</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                            </section>
+                            <section id="javascript">
+                                <h2>4. JavaScript</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium dolor qui
+                                    est aliquam id aliquid excepturi harum adipisci veniam nesciunt omnis totam, enim
+                                    delectus officia quaerat illum debitis commodi.</p>
+                            </section>
+                        </main>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
